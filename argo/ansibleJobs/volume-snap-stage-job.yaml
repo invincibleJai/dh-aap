@@ -1,0 +1,11 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: volume-snap-stage-job
+  namespace: aap
+spec:
+  connection_secret: aapaccess
+  job_template_name: volume-snapshot
+  extra_vars:
+    []
