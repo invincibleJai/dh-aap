@@ -8,6 +8,7 @@ spec:
   tower_auth_secret: aapaccess
   job_template_name: volume-snapshot
   job_template_project: dh-aap
+  job_template_ask_vars: true
   job_template_playbook: volume-snapshot.yaml
   job_template_inventory: ocp
   job_template_extra_vars:
