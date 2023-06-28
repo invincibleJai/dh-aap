@@ -7,5 +7,4 @@ metadata:
 spec:
   connection_secret: aapaccess
   job_template_name: volume-snapshot
-  extra_vars:
-    []
+  extra_vars: []
