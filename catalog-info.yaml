@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dh-aap
+  description: snapshot persistent volume claims
+  annotations:
+    backstage.io/kubernetes-id: dh-aap
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: cooktheryan/dh-aap
+spec:
+  type: api
+  system: 
+  lifecycle: production
+  owner: rcook
