@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: dh-aap
     backstage.io/techdocs-ref: dir:.
-    github.com/project-slug: cooktheryan/dh-aap
+    github.com/project-slug: invincibleJai/dh-aap
 spec:
   type: api 
   lifecycle: production
