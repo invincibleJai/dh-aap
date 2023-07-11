@@ -8,6 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: invincibleJai/dh-aap
 spec:
-  type: api 
+  type: api
+  system: test
   lifecycle: production
   owner: rcook
