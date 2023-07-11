@@ -8,7 +8,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: cooktheryan/dh-aap
 spec:
-  type: api
-  system: 
+  type: api 
   lifecycle: production
   owner: rcook
