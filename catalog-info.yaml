@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dh-aap
-  description: snapshot prod
+  description: snapshot production
   annotations:
     backstage.io/kubernetes-id: dh-aap
     backstage.io/techdocs-ref: dir:.
@@ -10,5 +10,5 @@ metadata:
 spec:
   type: api
   system: test
-  lifecycle: prod
+  lifecycle: production
   owner: rcook
