@@ -10,5 +10,5 @@ metadata:
 spec:
   type: api
   system: test
-  lifecycle: production
+  lifecycle: prod
   owner: rcook
